@@ -11,7 +11,7 @@ public class Main {
         stack.dump();
         //String actual = outputStreamCaptor.toString().trim();
         
-        /*stack.push("A");
+        stack.push("A");
         System.out.println(stack.length());
         System.out.println(stack.peek());
         stack.push("B");
@@ -23,13 +23,13 @@ public class Main {
         stack.dump();
         
         System.out.println("Removing from the stack");
-        //System.out.println(stack.peek());
+        System.out.println(stack.peek());
         System.out.println(stack.pop());
-        //System.out.println(stack.peek());
+        System.out.println(stack.peek());
         System.out.println(stack.pop());
-        //System.out.println(stack.peek());
+        System.out.println(stack.peek());
         System.out.println(stack.pop());
-        //System.out.println(stack.peek());
+        System.out.println(stack.peek());
         stack.pop();
         stack.dump();
         
@@ -40,7 +40,7 @@ public class Main {
         System.out.println("Stack is empty: " + stack.isEmpty());
         System.out.println(stack.length());
         System.out.println(stack.peek());
-        stack.dump();*/
+        stack.dump();
     
     }
 }
