@@ -42,7 +42,7 @@ A JUnit-based test class (`StackTest.java`) that verifies:
 ### 🗂 Example Test Methods:
 ```java
 @Test
-public void pushTestDumpNotEmpty() ... }
+public void pushTestDumpNotEmpty(){ ... }
 
 @Test
 public void popTestNotEmpty(){ ... }
