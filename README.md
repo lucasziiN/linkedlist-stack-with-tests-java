@@ -42,16 +42,16 @@ A JUnit-based test class (`StackTest.java`) that verifies:
 ### 🗂 Example Test Methods:
 ```java
 @Test
-public void testPushIncreasesLength() { ... }
+public void pushTestDumpNotEmpty() ... }
 
 @Test
-public void testPopReturnsCorrectValue() { ... }
+public void popTestNotEmpty(){ ... }
 
 @Test
-public void testPeekWithoutPopping() { ... }
+public void peekTestEmpty(){ ... }
 
 @Test
-public void testIsEmptyInitially() { ... }
+public void peekTestAfterPushAndPop(){ ... }
 ```
 Each test includes JavaDoc-style comments explaining its purpose and what specific behavior it verifies.
 
