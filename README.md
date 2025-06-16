@@ -60,7 +60,7 @@ Each test includes JavaDoc-style comments explaining its purpose and what specif
 linkedlist-stack/
 ├── Stack.java              # Stack implementation
 ├── StackTest.java          # JUnit test suite
-├── Node.java               # Optional if external Node class
+├── Node.java               # Node class
 └── README.md
 ```
 
